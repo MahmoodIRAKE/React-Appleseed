@@ -1,23 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Ex22 from './components/Ex2.2/2.2.jsx'
+import Box1 from './components/Ex3.1/box1.jsx'
+import Quiz from './components/Ex3.2.js/quiz.jsx';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+         <Ex22/>
+         <Box1/>
+         <Quiz/>
     </div>
   );
 }
