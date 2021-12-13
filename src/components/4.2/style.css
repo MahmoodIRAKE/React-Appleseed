@@ -1,0 +1,26 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width:30vw;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 10px 10px #333;
+        
+}
+.card ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+.card ul li {
+    margin-right:20px;
+}
+
+.card h2{
+   text-align: left;
+}
+
+.card p{
+    text-align: left;
+}
