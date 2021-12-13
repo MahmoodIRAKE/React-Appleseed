@@ -9,7 +9,7 @@ import ButtonText from './components/4.1/4.1'
 import Card from './components/4.2/4.2'
 import  Card2 from './components/6.1/6.1'
 import Increment from './components/7.1/7.1'
-
+import ShowBox from './components/7.2/7.2';
 function App() {
   
   return (
@@ -19,7 +19,7 @@ function App() {
       explore='https://en.wikipedia.org/wiki/Mountain' share='https://en.wikipedia.org/wiki/Mountain'/> */}
 
 <Increment/>
-  
+  <ShowBox/>
     </div>
   );
 }
