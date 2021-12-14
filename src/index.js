@@ -13,6 +13,7 @@ import ShowBox from './components/7.2/7.2';
 import Ex81 from './components/8.1/8.1';
 import Ex82 from './components/8.2/8.2';
 import Ex83 from './components/8.3/8.3';
+import Ex91 from './components/spinner/9.1';
 function App() {
   
   return (
@@ -23,7 +24,8 @@ function App() {
 {/* <Ex82 width='100px' height='100px'/>
 <Ex82 width='400px' height='200px'/>
 <Ex82 width='600px' height='100px'/> */}
-<Ex83/>
+{/* <Ex83/> */}
+<Ex91/>
     </div>
   );
 }
