@@ -15,12 +15,15 @@ import Ex82 from './components/8.2/8.2';
 import Ex83 from './components/8.3/8.3';
 import Ex91 from './components/spinner/9.1';
 import Ex111 from './components/11.1/11.1';
+import Ex112 from './components/11.2/11.2';
+import Ex113 from './components/11.3/11.3';
 
 function App() {
   
   return (
     <div className="App">
-        <Ex111/>
+        {/* <Ex112/> */}
+        <Ex113/>
     </div>
   );
 }
