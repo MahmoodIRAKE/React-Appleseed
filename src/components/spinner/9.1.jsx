@@ -17,17 +17,15 @@ class Ex91 extends React.Component {
            this.setState({display:false});
        }, 5000);
     }
-    componentDidUpdate() {
 
-
-
+    displayContent(){
+        return this.state.display?this.spinners[this.state.spinner]:<h1>Welocome To Us</h1>;
     }
-  
-
     render() {
+        
         return (
             <div>
-           {this.state.display?this.spinners[this.state.spinner]:<h1>Welocome To Us</h1>}
+               {this.displayContent()}
             </div>
         );
     }

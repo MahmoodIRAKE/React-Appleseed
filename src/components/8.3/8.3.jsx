@@ -5,8 +5,8 @@ import './style1.css';
 class Ex83 extends React.Component {
     state = { color: '', counter: 0 ,rad:''}
     colors=['red','blue','green','yellow','black']
-
     componentDidMount() {
+        
         setTimeout(() => {
             this.setState({ color: 'red', counter: this.state.counter });
         }, 500);
@@ -35,6 +35,8 @@ class Ex83 extends React.Component {
             </div>
         );
     }
+
+  
 }
 
 export default Ex83;

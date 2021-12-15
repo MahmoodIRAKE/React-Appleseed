@@ -14,18 +14,13 @@ import Ex81 from './components/8.1/8.1';
 import Ex82 from './components/8.2/8.2';
 import Ex83 from './components/8.3/8.3';
 import Ex91 from './components/spinner/9.1';
+import Ex111 from './components/11.1/11.1';
+
 function App() {
   
   return (
     <div className="App">
-{/* <Card2 src="https://th-thumbnailer.cdn-si-edu.com/IzJ6U8XJZK3JCDkLIybv03GqaUQ=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/25/f0/25f08cff-0355-4001-86ad-28950a866af4/grandteton.jpg" 
-      title="Mountain" text="This Is Amountain" 
-      explore='https://en.wikipedia.org/wiki/Mountain' share='https://en.wikipedia.org/wiki/Mountain'/> */}
-{/* <Ex82 width='100px' height='100px'/>
-<Ex82 width='400px' height='200px'/>
-<Ex82 width='600px' height='100px'/> */}
-{/* <Ex83/> */}
-<Ex91/>
+        <Ex111/>
     </div>
   );
 }
